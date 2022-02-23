@@ -108,14 +108,32 @@ h1{
     margin-right: 5%;
 }
 
-.global-position{
+.global-text-position{
     width: 40%;
     margin-top: 5%;
     margin-left: 15%;
 }
 
+/*---------- part_5------------ */
 
-/* ----------part_5------------ */
+.conrona-area{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-image: url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left;
+}
+
+
+
+#corona{
+    color: orange;
+}
+
+
+/* ----------part_6------------ */
 footer{
     color: white;
     text-align: center;
