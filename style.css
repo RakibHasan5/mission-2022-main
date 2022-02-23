@@ -1,12 +1,14 @@
-/* 1st_part */
+/* ----1st_part -------*/
 body{
     font-family: 'Inter', sans-serif;
     margin: 0%;
 }
+
 h1{
     margin: 0;
 }
-#change-style{
+
+#change-font-style{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 20%;
@@ -15,69 +17,71 @@ h1{
     border-image-slice: 1;
     padding: 5px;
 }
+
 .orange-color{
     color: orange;
 }
-/* #line{
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 30%;
-    border-left: 3px solid;
-    border-image: linear-gradient(black, orange);
-    border-image-slice: 1;
-    padding: 5px;
-} */
+
 .link-button{
     color: antiquewhite;
     font-weight: 700;
     text-decoration: none;
-    background-image: linear-gradient(black, orange);
+    background-image: linear-gradient(salmon, rgb(150, 107, 42));
     padding: 10px 40px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
+
 .flexible-container{
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
+
 .half-width{
     width: 50%;
     margin-left: 10%;
 }
+
 .half-width img{
     width: 70%;
 }
 
+/*------- 2nd_part-------- */
 
-/* 2nd_part */
 .center-text{
     font-size: 50px;
     text-align: center;
     margin-bottom: 5%;
 }
-.container{
-    display: flex;
-}
+
 .box-style{
     width: 20%;
-    box-shadow: 30px 10px 40px gray;
     margin-left: 6%;
     margin-right: 5%;
     padding-left: 20px;
     border-radius: 20px;
 }
-.img{
+
+#first-box-color{
+    padding: 10px 10px 40px;
+    background-color: rgba(145, 142, 142, 0.171);
+}
+#second-box-color{
+    padding: 10px 10px 40px;
+    background-color: rgba(241, 69, 69, 0.178);
+}
+#third-box-color{
+    padding: 10px 10px 40px;
+    background-color: rgba(245, 245, 67, 0.226);
+}
+
+.mission-area-img{
     width: 40%;
     margin-top: 15%;
 }
 
-/* part_3 */
+/*-------- part_3--------- */
 
-.text-position{
-    width: 40%;
-    margin-right: 10%;
-    margin-top: 5%; 
-}
-.flexible{
+.develope-area{
     display: flex;
     margin-top: 10%;
     margin-left: 5%;
@@ -87,44 +91,45 @@ h1{
     background-position: left;
 }
 
-/* part_4 */
-.flexi{
+.develope-position{
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 5%; 
+}
+
+/*------- part_4 ---------*/
+.global-area{
     display: flex;
     margin-top: 10%;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: right;
+    margin-right: 5%;
 }
-.text-deco{
+
+.global-position{
     width: 40%;
-    margin-left: 15%;
     margin-top: 5%;
-}
-.half-hight{
-    width: 50%;
-    margin-left: 10%;
-}
-.half-hight img{
-    width: 70%;
+    margin-left: 15%;
 }
 
 
-
-/* part_5 */
+/* ----------part_5------------ */
 footer{
     color: white;
     text-align: center;
     margin-top: 10%;
-    margin-bottom: 0%;
     background-color: black;
     padding-top: 2%;
     padding-bottom: 1px;
 }
+
 .footer-area{
     font-family: cursive;
     font-size: 50px;
 }
+
 #footer-color{
     color: rgb(201, 25, 25);
 }
